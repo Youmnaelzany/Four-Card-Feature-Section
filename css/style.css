@@ -64,6 +64,7 @@ main {
 
 /* Cards Section */
 .cards__section {
+  width: 80;
   margin-top: 5em;
   display: flex;
   gap: 2em;
