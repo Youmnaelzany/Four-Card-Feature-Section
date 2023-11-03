@@ -1,0 +1,24 @@
+/* Mobile */
+
+@media (min-width: 320px) and (max-width: 767px) {
+  main {
+    margin: 5em 2em;
+  }
+  .main__heading {
+    font-size: 1.5rem;
+    letter-spacing: 0.01044rem;
+  }
+
+  .sub__heading {
+    font-size: 1.5rem;
+    letter-spacing: 0.01044rem;
+  }
+
+  .main__paragraph {
+    width: 19.4375rem;
+  }
+  .cards__section {
+    margin-top: 4.5em;
+    flex-direction: column;
+  }
+}

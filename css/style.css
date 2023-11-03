@@ -79,11 +79,14 @@ main {
 
 .card {
   background-color: white;
+  color: var(--Very-Dark-Blue);
   border-radius: 0.5rem;
-  padding: 2em;
+  padding: 1em 2em;
   width: 21.875rem;
   height: 15.625rem;
   box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  display: flex;
+  flex-direction: column;
 }
 
 .cyan__card {
@@ -100,6 +103,31 @@ main {
 
 .blue__card {
   border-top: 3px solid var(--Blue-clr);
+}
+
+.card__heading {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card__paragraph {
+  color: hsla(229, 6%, 66%, 05);
+  margin-top: 0.5em;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4375rem; /* 176.923% */
+  letter-spacing: 0.00563rem;
+}
+
+.card__img__container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 /* FOOTER */
