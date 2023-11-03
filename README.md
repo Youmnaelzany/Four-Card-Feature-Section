@@ -15,8 +15,8 @@ View the optimal layout for the site depending on their device's screen size.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Youmnaelzany/Four-Card-Feature-Section.git)
+- Live Site URL: [Add live site URL here](https://four-card-feature-section32.netlify.app/)
 
 
 ## My process
