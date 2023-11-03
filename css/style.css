@@ -15,10 +15,91 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
   font-size: 0.938rem;
   line-height: 1.5;
   background-color: var(--Very-Light-Gray);
+}
+
+/* Main Style */
+main {
+  margin: 5em 10em;
+}
+
+/* Main Section Style */
+.main__text__section {
+  text-align: center;
+  color: var(--Very-Dark-Blue);
+}
+
+.main__heading {
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 275;
+  line-height: normal;
+  letter-spacing: 0.01563rem;
+  margin-bottom: 0;
+}
+
+.sub__heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.01563rem;
+}
+.main__paragraph {
+  width: 33.75rem;
+  margin: 1em auto;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem; /* 166.667% */
+  letter-spacing: 0.0065rem;
+}
+
+/* Cards Section */
+.cards__section {
+  margin-top: 5em;
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.center__row {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 2em;
+  width: 21.875rem;
+  height: 15.625rem;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+}
+
+.cyan__card {
+  border-top: 3px solid var(--Cyan-clr);
+}
+
+.red__card {
+  border-top: 3px solid var(--Red-clr);
+}
+
+.orange__card {
+  border-top: 3px solid var(--Orange-clr);
+}
+
+.blue__card {
+  border-top: 3px solid var(--Blue-clr);
 }
 
 /* FOOTER */
